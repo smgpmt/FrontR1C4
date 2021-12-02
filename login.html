@@ -15,19 +15,35 @@
   </head>
   <body>
     <div class="container">
-    <div class="row">
+      
+      <header>
+        <h1>La Tienda &#xae;&#xfe0f;</h1>
+        <h3>¡Bienvenido! Ingresa a tu cuenta o registrate </h3>
+      </header>
+    
+      <nav>
+        <a href="index.html"
+          >Inicio
+        </a>
+        <a href="login.html"
+          >Login Usuario
+        </a>
+        <a href="registro.html"
+          >Registro Usuario
+        </a>
+      </nav>
+       <div class="row">
         <div class="col">
           <form
             id="loginForm"
             onsubmit="loginProcess(event)"
+            class="was-validated">
             
-            class="was-validated"
-          >
             <div class="mb-3 mt-3">
            
             <h3 class="text-center text-info">Inicio de sesion</h3>
             <hr />
-           
+              
               <label for="uname" class="form-label">Email:</label>
               <input
                 type="email"

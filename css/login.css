@@ -1,48 +1,76 @@
+html{
+  background-color: #1c99af;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+h3{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+nav{
+  background-color: #20b1ca;
+  padding: 5px 3px 5px 5px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  color: #0f0d0d;
+  text-decoration: none;
+  background-color: rgb(236, 229, 229);
+  padding: 14px 18px 5px 10px;
+  text-align: left;
+  border-radius: 5px;
+  
+}
+
+.row{
+margin-top: 40px;
+margin-left: 30px;
+margin-right: 35px;
+margin-bottom: 40px;
+background-color: rgb(235, 230, 230);
+padding:15px 20px;  
+border-radius: 10px;
+
+}
+.btn{
+margin-top: 20px;
+margin-left: 35px;
+margin-right: 35px;
+margin-bottom: 20px;
+background-color: #58bdcf;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #1c99af;
   height: 100vh;
 }
-#login .container #login-row #login-column #login-box {
-  margin-top: 30px;
-  max-width: 600px;
-  height: 520px;
-  border: 1px solid #ebe9e4;
-  background-color: #ebe9e4;
-}
-#login .container #login-row #login-column #login-box #login-form {
-  padding: 20px;
-}
-#login
-  .container
-  #login-row
-  #login-column
-  #login-box
-  #login-form
-  #register-link {
-  margin-top: -85px;
-}
 
+#third{
+  background-color: #889696;    
+}
+/* end id selectors */
+.common,#final{
+  border: darkblue solid 3px;
+  color:darkgoldenrod
+}
+.container{
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 21px;
+  border-radius: 5px;
+}
 .row{
-  margin-top: 100px;
-  margin-left: 190px;
-  margin-right: 800px;
-  margin-bottom: 10px;
-  width: 65%;
-  background-color: rgb(255, 253, 250);
-  padding: 95px 20px; 
-  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
-h3 {
-  margin-top: -85px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.btn{
-  margin-top: 20px;
-  margin-left: 290px;
-  margin-right: 35px;
-  margin-bottom: 20px;
-  background-color: #58bdcf;
-  }

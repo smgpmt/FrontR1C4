@@ -1,7 +1,6 @@
 async function loginProcess(event) {
     event.preventDefault();
     try {
-      
       const emailField = document.getElementById("email");
       const passwordField = document.querySelector("#password");
       if (emailField && passwordField) {
@@ -43,7 +42,7 @@ async function loginProcess(event) {
   
   async function sendDataSync(em, pass) {
     try {
-      const url = `http://158.101.99.133/api/user/${em}/${pass}`;
+      const url = `http://158.101.99.133:8080/api/user/${em}/${pass}`;
       const body = {
       email: em,
       password: pass,
@@ -72,5 +71,4 @@ async function loginProcess(event) {
       alert("No existe un usuario con estos datos");
     }
   }
-  
   
